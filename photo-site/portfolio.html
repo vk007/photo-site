@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Václav Krycner Photography</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a href="index.html" class="brand">V<span>K</span></a>
+    <nav class="primary">
+      <a href="index.html" data-i18n="nav_home">Úvod</a>
+      <a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a>
+      <a href="about.html" data-i18n="nav_about">O mně</a>
+      <a href="pricing.html" data-i18n="nav_pricing">Ceník</a>
+      <a href="contact.html" data-i18n="nav_contact">Kontakt</a>
+      <div class="lang-switch">
+        <button data-lang="cs">CZ</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="menu">☰</button>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="num" data-i18n="pf_num">Portfolio</span>
+        <h2 data-i18n="pf_title">Vybrané práce</h2>
+      </div>
+      <p data-i18n="pf_lead">Filtrujte podle žánru nebo si galerii projděte celou.</p>
+    </div>
+
+    <div class="filters">
+      <button class="active" data-filter="all" data-i18n="filter_all">Vše</button>
+      <button data-filter="landscape" data-i18n="filter_landscape">Krajina</button>
+      <button data-filter="reportage" data-i18n="filter_reportage">Reportáž</button>
+      <button data-filter="macro" data-i18n="filter_macro">Makro</button>
+    </div>
+
+    <div class="gallery">
+      <div class="g-item tall wide" data-category="landscape"><img src="https://picsum.photos/id/1018/900/1100" alt="Krajina 1"><span class="tag">Krajina</span></div>
+      <div class="g-item" data-category="macro"><img src="https://picsum.photos/id/1080/600/600" alt="Makro 1"><span class="tag">Makro</span></div>
+      <div class="g-item" data-category="reportage"><img src="https://picsum.photos/id/1062/600/600" alt="Reportáž 1"><span class="tag">Reportáž</span></div>
+      <div class="g-item tall" data-category="landscape"><img src="https://picsum.photos/id/1015/700/1000" alt="Krajina 2"><span class="tag">Krajina</span></div>
+      <div class="g-item wide" data-category="reportage"><img src="https://picsum.photos/id/1074/900/600" alt="Reportáž 2"><span class="tag">Reportáž</span></div>
+      <div class="g-item" data-category="macro"><img src="https://picsum.photos/id/1081/600/600" alt="Makro 2"><span class="tag">Makro</span></div>
+      <div class="g-item tall" data-category="landscape"><img src="https://picsum.photos/id/1019/700/1000" alt="Krajina 3"><span class="tag">Krajina</span></div>
+      <div class="g-item" data-category="macro"><img src="https://picsum.photos/id/1082/600/600" alt="Makro 3"><span class="tag">Makro</span></div>
+      <div class="g-item wide" data-category="landscape"><img src="https://picsum.photos/id/1023/900/600" alt="Krajina 4"><span class="tag">Krajina</span></div>
+      <div class="g-item" data-category="reportage"><img src="https://picsum.photos/id/1050/600/600" alt="Reportáž 3"><span class="tag">Reportáž</span></div>
+      <div class="g-item tall" data-category="macro"><img src="https://picsum.photos/id/1083/700/1000" alt="Makro 4"><span class="tag">Makro</span></div>
+      <div class="g-item" data-category="landscape"><img src="https://picsum.photos/id/1035/600/600" alt="Krajina 5"><span class="tag">Krajina</span></div>
+      <div class="g-item wide" data-category="reportage"><img src="https://picsum.photos/id/1066/900/600" alt="Reportáž 4"><span class="tag">Reportáž</span></div>
+      <div class="g-item tall" data-category="landscape"><img src="https://picsum.photos/id/1043/700/1000" alt="Krajina 6"><span class="tag">Krajina</span></div>
+      <div class="g-item" data-category="macro"><img src="https://picsum.photos/id/1084/600/600" alt="Makro 5"><span class="tag">Makro</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="fine">© 2026 Václav Krycner Photography. <span data-i18n="footer_rights">Všechna práva vyhrazena.</span></span>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">500px</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox">
+  <button class="close" aria-label="close">✕</button>
+  <button class="nav-btn prev" aria-label="previous">‹</button>
+  <img src="" alt="">
+  <button class="nav-btn next" aria-label="next">›</button>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

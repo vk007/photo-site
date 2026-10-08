@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Václav Krycner Photography</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a href="index.html" class="brand">V<span>K</span></a>
+    <nav class="primary">
+      <a href="index.html" data-i18n="nav_home">Úvod</a>
+      <a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a>
+      <a href="about.html" data-i18n="nav_about">O mně</a>
+      <a href="pricing.html" data-i18n="nav_pricing">Ceník</a>
+      <a href="contact.html" data-i18n="nav_contact">Kontakt</a>
+      <div class="lang-switch">
+        <button data-lang="cs">CZ</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="menu">☰</button>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="num" data-i18n="contact_num">Kontakt</span>
+        <h2 data-i18n="contact_title">Domluvme se</h2>
+      </div>
+      <p data-i18n="contact_lead">Napište o jaký typ zakázky jde, termín a lokaci — ozvu se do 48 hodin.</p>
+    </div>
+
+    <div class="contact-grid">
+      <form class="contact-form">
+        <div class="field">
+          <label data-i18n="field_name">Jméno</label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="field">
+          <label data-i18n="field_email">E-mail</label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="field">
+          <label data-i18n="field_type">Typ zakázky</label>
+          <select name="type">
+            <option data-i18n="opt_landscape">Krajina / příroda</option>
+            <option data-i18n="opt_reportage">Reportáž / svatba</option>
+            <option data-i18n="opt_macro">Makro session</option>
+            <option data-i18n="opt_other">Jiné</option>
+          </select>
+        </div>
+        <div class="field">
+          <label data-i18n="field_date">Předpokládaný termín</label>
+          <input type="date" name="date">
+        </div>
+        <div class="field">
+          <label data-i18n="field_message">Zpráva</label>
+          <textarea name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn solid" data-i18n="field_submit">Odeslat poptávku</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="item">
+          <div class="k" data-i18n="info_email_k">E-mail</div>
+          <div class="v">vaclav.krycner@example.com</div>
+        </div>
+        <div class="item">
+          <div class="k" data-i18n="info_phone_k">Telefon</div>
+          <div class="v">+420 123 456 789</div>
+        </div>
+        <div class="item">
+          <div class="k" data-i18n="info_studio_k">Studio</div>
+          <div class="v" data-i18n="info_studio_v">Praha & okolí, výjezdy po ČR i EU</div>
+        </div>
+        <div class="item">
+          <div class="k" data-i18n="info_hours_k">Dostupnost</div>
+          <div class="v" data-i18n="info_hours_v">Po–Pá 9:00–18:00</div>
+        </div>
+        <div class="contact-photo">
+          <img src="img/vaclav-contact.jpg" alt="Václav Krycner se svým psem">
+          <span class="contact-photo-caption" data-i18n="contact_photo_caption">Já a moje nejvěrnější „asistentka" v terénu.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="fine">© 2026 Václav Krycner Photography. <span data-i18n="footer_rights">Všechna práva vyhrazena.</span></span>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">500px</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
